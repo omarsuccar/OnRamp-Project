@@ -62,30 +62,30 @@ Ensure you have the following installed:
 ### Installation
 
 1. **Clone the repository:**
-'''git clone https://github.com/omarsuccar/OnRamp-Project.git'''
+```git clone https://github.com/omarsuccar/OnRamp-Project.git```
 
 2. **Install Backend dependencies:**
-'''cd backend
-npm install'''
+```cd backend```
+```npm install```
 
-3. **Install Frontend dependenceies:**
-'''cd frontend
-npm install'''
+4. **Install Frontend dependenceies:**
+```cd frontend```
+```npm install```
 
 5. **Setup environment variables:**
 Create a .env file in the backend directory and add the following:
-'''PORT=5000
-dbURI=mongodb://localhost:27017/careerlink
-SECRET=your_jwt_secret
-SECRET2=your_second_jwt_secret_for_companies'''
+```PORT=5000```
+```dbURI=mongodb://localhost:27017/careerlink```
+```SECRET=your_jwt_secret```
+```SECRET2=your_second_jwt_secret_for_companies```
 
 6. **Run the backend server:**
-cd backend
-npm start
+```cd backend```
+```npm start```
 
-8. **Run the frontend server:**
-cd frontend
-npm start
+7. **Run the frontend server:**
+```cd frontend```
+```npm start```
 
 ## Running the Application
 
