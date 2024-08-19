@@ -62,10 +62,78 @@ Ensure you have the following installed:
 ### Installation
 
 1. **Clone the repository:**
-
-git clone https://github.com/omarsuccar/OnRamp-Project.git
+'''git clone https://github.com/omarsuccar/OnRamp-Project.git'''
 
 2. **Install Backend dependencies:**
-```cd backend
-npm install```
+'''cd backend
+npm install'''
+
+3. **Install Frontend dependenceies:**
+'''cd frontend
+npm install'''
+
+5. **Setup environment variables:**
+Create a .env file in the backend directory and add the following:
+'''PORT=5000
+dbURI=mongodb://localhost:27017/careerlink
+SECRET=your_jwt_secret
+SECRET2=your_second_jwt_secret_for_companies'''
+
+6. **Run the backend server:**
+cd backend
+npm start
+
+8. **Run the frontend server:**
+cd frontend
+npm start
+
+## Running the Application
+
+- **Backend:** The API server will run at [http://localhost:5000](http://localhost:5000).
+- **Frontend:** The React frontend will be available at [http://localhost:3000](http://localhost:3000).
+
+## Project Structure
+
+### Backend
+
+- **`/models`**: Mongoose models for Users, Companies, and Jobs.
+- **`/controllers`**: Controllers for handling API requests.
+- **`/routes`**: Express routes for Users and Companies.
+- **`/middleware`**: Middleware for authentication and error handling.
+- **`/server.js`**: Main entry point for the backend server.
+
+### Frontend
+
+- **`/components`**: Reusable React components.
+- **`/pages`**: Pages for different views (login, signup, dashboard).
+- **`/App.js`**: Main React component that handles routing.
+- **`/menu.js`**: Component that serves as the dashboard for users and companies.
+
+## Usage
+
+### User Functionality
+
+- **Signup/Login:** Users can create an account or log in.
+- **View Jobs:** Browse and search for job postings.
+- **Apply for Jobs:** Submit applications for available jobs.
+- **Track Applications:** View jobs you have applied to and their status.
+
+### Company Functionality
+
+- **Signup/Login:** Companies can create an account or log in.
+- **Post Jobs:** Create new job postings.
+- **Manage Jobs:** View and manage existing job postings.
+- **View Applicants:** Review applicants for each job posting.
+
+## Troubleshooting Common Errors
+
+### MongoDB Connection Issues
+
+- Ensure MongoDB is running locally or update the `dbURI` in your `.env` file with the correct connection string.
+
+### CORS Errors
+
+- If you encounter CORS errors, make sure that the frontend and backend are correctly configured to allow cross-origin requests.
+
+
 
