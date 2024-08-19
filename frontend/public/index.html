@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet" />
+  <meta name="JobBoard" content="Find Your Future Job" />
+  <link rel="logo" href="%PUBLIC_URL%/logo.svg" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>CareerLink</title>
+  <style>
+    /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+    ::-webkit-scrollbar {
+      width: 0px;
+      /* Hide scrollbar */
+      background: transparent;
+      /* Make scrollbar track invisible */
+    }
+
+    /* Hide scrollbar for Firefox */
+    * {
+      scrollbar-width: none;
+      /* Hide scrollbar for Firefox */
+    }
+
+    /* Hide scrollbar for Internet Explorer and Edge */
+    body {
+      -ms-overflow-style: none;
+      /* Hide scrollbar for IE and Edge */
+    }
+
+    /* General styles */
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      /* Prevent scrollbars on body */
+    }
+
+    #root {
+      height: 100%;
+      overflow: auto;
+      /* Enable scrolling only for the root element */
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+
+</html>
