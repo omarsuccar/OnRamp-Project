@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# CareerLink: Job Portal with Node.js, Express, React, and MongoDB
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CareerLink is a comprehensive job portal application designed to connect job applicants with recruiters. This project features a robust backend built with Node.js, Express, and MongoDB, and a dynamic frontend using React and Material-UI.
 
-## Available Scripts
+## What's Inside:
 
-In the project directory, you can run:
+- **Backend:**
+  - Node.js and Express-based API server
+  - MongoDB for data storage
+  - JWT authentication for secure login and signup
+  - RESTful API endpoints for managing users, companies, jobs, and applications
 
-### `npm start`
+- **Frontend:**
+  - React for building user interfaces
+  - Material-UI for responsive and modern component design
+  - User and Company dashboards
+  - Job posting and application management
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend
+- **Authentication:**
+  - JWT-based authentication for both users and companies
+  - Secure login and signup routes
 
-### `npm test`
+- **Database:**
+  - MongoDB with Mongoose ORM for schema-based data modeling
+  - User and Company profiles with relations to jobs and applications
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Job Management:**
+  - Post, view, update, and delete job listings
+  - Apply for jobs, track applications, and manage job postings
 
-### `npm run build`
+- **Middleware:**
+  - Authentication middleware for protecting routes
+  - Error handling and logging
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend
+- **Authentication:**
+  - User and company-specific login and signup forms
+  - Cookie-based session management
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **User Interface:**
+  - Responsive design using Material-UI components
+  - Dynamic dashboards for users and companies
+  - Profile management and job application tracking for users
+  - Job posting and applicant management for companies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Navigation:**
+  - React Router for client-side routing
+  - Protected routes based on authentication status
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
+Ensure you have the following installed:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node.js (>=14.x)
+- MongoDB (>=4.x)
+- npm (Node Package Manager) or yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Clone the repository:**
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/yourusername/careerlink.git
+   cd careerlink
